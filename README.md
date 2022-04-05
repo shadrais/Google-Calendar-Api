@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Visit live website link - https://hilarious-swan-14a2cc.netlify.app/
+Visit live website - https://hilarious-swan-14a2cc.netlify.app/
 
 ## Available Scripts
 
