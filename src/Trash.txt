@@ -1,0 +1,94 @@
+// import { gapi } from 'gapi-script'
+
+// function ListUpcomingEvents() {
+//   return (
+//     <div>
+//       <h1>Upcoming Events</h1>
+//     </div>
+//   )
+// }
+
+// // import { useEffect } from 'react'
+// // import { google } from 'googleapis'
+// // import { gapi } from 'gapi-script'
+// // import Login from './component/login'
+// // import Logout from './component/logout'
+
+// // function App() {
+// //   const CLIENT_ID =
+// //     '126665153213-99nijeruc6cob5hof12kg07acd9dn8pj.apps.googleusercontent.com'
+
+// //   var SCOPES = 'https://www.googleapis.com/auth/calendar.readonly'
+// //   var DISCOVERY_DOCS = [
+// //     'https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest',
+// //   ]
+// //   const API_KEY = 'AIzaSyArbEmqaQ3uMOxztlstieVGOX3h7bN-Txg'
+
+// //   console.log(CLIENT_ID)
+
+// //   const google = {
+// //     apiKey: API_KEY,
+// //     client_id: CLIENT_ID,
+// //     discoveryDocs: DISCOVERY_DOCS,
+// //     scope: SCOPES,
+// //   }
+
+// //   useEffect(() => {
+// //     gapi.load('client:auth2', () => {
+// //       gapi.auth2.init(google)
+// //     })
+// //   })
+// //   const getAceesstoke = () => {
+// //     const access_token = gapi.auth2
+// //       .getAuthInstance()
+// //       .currentUser.get()
+// //       .getAuthResponse().id_token
+
+// //     console.log('Access', access_token)
+// //   }
+
+// //   const getCalendar = () => {
+// //     console.log(gapi.auth2.calendar)
+// //     gapi.auth2.calendar.events
+// //       .list({
+// //         calendarId: 'primary',
+// //         timeMin: new Date().toISOString(),
+// //         showDeleted: false,
+// //         singleEvents: true,
+// //         maxResults: 10,
+// //         orderBy: 'startTime',
+// //       })
+// //       .then(function (response) {
+// //         var events = response.result.items
+// //         console.log(events)
+// //       })
+// //   }
+
+// //   function handleAuthClick(event) {
+// //     gapi.auth2.getAuthInstance().signIn()
+// //   }
+
+// //   /**
+// //    *  Sign out the user upon button click.
+// //    */
+// //   function handleSignoutClick(event) {
+// //     gapi.auth2.getAuthInstance().signOut()
+// //   }
+
+// //   return (
+// //     <div>
+// //       <button id='authorize_button' onClick={handleAuthClick}>
+// //         Authorize
+// //       </button>
+// //       <button id='signout_button' onClick={handleSignoutClick}>
+// //         Sign Out
+// //       </button>
+// //       <button onClick={getAceesstoke}>Access</button>
+// //       <button onClick={getCalendar}>Get Calendar</button>
+// //     </div>
+// //   )
+// // }
+
+// export default App
+
+// export default ListUpcomingEvents
