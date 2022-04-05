@@ -1,5 +1,5 @@
 import { GoogleLogin } from 'react-google-login'
-const client_id = process.env.CLIENT_ID
+const client_id = process.env.REACT_APP_CLIENT_ID
 
 function Login() {
   const onSuccess = (res) => {
